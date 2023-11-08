@@ -5,4 +5,6 @@ def proofread(text):
     print("Original: {}".format(text))
     print("Correction: {}".format(correction))
     
-proofread("Your Text")
+string = open("ProofReadingText.txt", "r")
+
+proofread(string)
